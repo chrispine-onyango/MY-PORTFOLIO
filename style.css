@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+    width:100%;
+    height: 65px;
+    line-height: 50px;
+    justify-content: space-between;
+    display:flex;
+    background-color:olive;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    font-size: 3rem;
+    cursor: default;
+    font-weight: 600;
+}
+span{
+    color:aliceblue;
+    font-weight: 800;
+    font-size: 25px;
+}
+.navbar{
+    padding:10px 0;
+    justify-content: space-between;
+    display:contents;
+}
+
+.navbar a{
+    color: aliceblue;
+    font-weight: 600;
+    transition: .3s;
+    font-size: 1.5rem;
+        
+}
+.home{
+    width: 100%;
+    height:450px;
+    color: #00000f;
+    background-color: aliceblue;
+}
+.homeinfo{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+::before{
+    content: "";
+    clear: left;
+    display: block;
+}
+.home h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight:550;
+}
+.home h2{
+    font-family:'Times New Roman', Times, serif ;
+    font-size:larger;
+    font-weight: 600;
+    color: blue;
+}
+.home-img{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.home-content{
+    font-size: large;
+    font-weight: 550;
+    margin-bottom:50px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.social-media{
+    margin-top: 20px;
+    margin-bottom: 2.5rem;
+    font-size:32px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.social-media a{
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    margin:0rem 1.5rem 0rem 0;
+    transition: .5 ease;
+    
+}
+.btn-box{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.btn-box a{
+    font-size: larger;
+    font-weight: 500;
+}
+.about{
+    background-color: aliceblue;
+}
+.about-content{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 550;
+    margin-left: 10px;
+    gap:4px;
+}
+.about h2{
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 500px;
+}
+.about h3{
+    font-size: medium;
+}
+.btn-box{
+    display: inline-flex;
+   
+}
+.btn{
+    border: 3px solid;
+    background-color: olive;
+    color: white;
+    padding: .5rem;
+    border-radius: 60px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: olive;
+    font-weight: bold;
+}
+.skills{
+    background-color: aliceblue;
+}
+.skills-content{
+    margin-left: 10px;
+    font-size: large;
+    font-weight: 550;
+
+}
+.skills-content h2{
+    color:green;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-left: 500px;
+}
+.skills-content h3{
+    color:blue;
+    font-size: medium;
+    font-weight: 600;
+}
+.contact{
+    background-color: aliceblue;
+    max-height: max-content;
+}
+.contact-content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.contact-content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color:green;
+    font-weight: 850;
+    margin-left: 500px;
+}
+.input-box content{
+    border-radius: 50px;
+    display:inline-flex;
+    margin-left: 50px;
+}
+.input-box{
+    margin-left: 200px;
+}
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 20px;
+    color:olive;
+}
+.button{
+    margin-left:400px;
+    border: 5px solid;
+    background-color: olive;
+    color: white;
+    padding: .5rem;
+    border-radius: 60px;
+    font-weight: bold;
+    width: 100px;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: olive;
+    font-weight: bold;
+}
+.social-media{
+    margin-top: 20px;
+    margin-bottom: 2.5rem;
+    font-size:32px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.social-media a{
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 50%;
+    position: relative;
+    margin:0rem 1.5rem 0rem 0;
+    transition: .5 ease;
+}
